@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logo{
+    color: white;
+    padding-left:100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 80px;
+    align-items: center;
+}
+
+.fontawesome{
+    color: white;
+    display: flex;
+    /* margin-left: 650px; */
+    padding-left: 400px;
+}
+
+.search{
+    height: 20px;
+    width: 150px;
+    color: #007bff;
+}
+
+.search:hover{
+    border: 1px solid blue;
+}
+
+
+.listimage img{
+    border-radius: 50%;
+}
+
+
+
+
+nav ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav ul li a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 2px;
+    padding-bottom: 5px;
+}
+
+
+.gradient-background{
+    height: 170px;
+    background: linear-gradient(to top , #007bff,white);
+}
+
+
+
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    overflow: hidden;
+    position: absolute;
+    left: 45%;
+    top: 150px;
+}
+
+.insta{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    font-size: medium;
+    font-weight: 400px;
+}
+
+.instaUser{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: 400px;
+}
+
+button{
+    height: 50px;
+    width: 120px;
+    margin: 5px;
+    font-size: medium;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.btn-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.first-btn{
+    border: 1px solid grey;
+}
+
+.first-btn:hover{
+    text-decoration: underline;
+    color: #007bff;
+}
+
+.second-btn{
+    color: white;
+    border: 1px solid gray;
+    background-color: rgb(91, 73, 109);
+}
+
+.second-btn:hover{
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+}
+
+.main-content{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 300px;
+    width: 60%;
+
+}
+
+.location-card {
+    margin-left: 30px;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0,0.9);
+    height: 300px;
+}
+
+
+.heading {
+    margin-bottom: 10px;
+
+}
+
+.ptag {
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+    word-spacing: 3px;
+    display: flex;
+    align-items: center;
+    
+}
+
+hr{
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.ptag1{
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+    word-spacing: 3px;
+    font-size: 1rem;
+    color: grey;
+    font-weight: lighter;
+
+}
+
+
+.ptag img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.ptag a:hover{
+    color: #007bff;
+}
+
+.ptag1 a{
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+    word-spacing: 3px;
+    font-size: 1rem;
+    color: grey;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.ptag1 a:hover{
+    color: #007bff;
+}
+
+.icon { 
+    margin-left: 10px;
+}
+
+.project-card{
+    margin-left: 30px;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0,0.9);
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.heading img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.ptag2{
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+    word-spacing: 3px;
+    font-size: 0.8rem;
+    color: grey;
+    font-weight: lighter;
+    padding-left: 40px;
+}
+
+.project-card button{
+    margin-left: 230px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    color: gray;
+}
+
+.project-card button:hover {
+    color:black ;
+}
